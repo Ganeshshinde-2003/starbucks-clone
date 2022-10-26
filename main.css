@@ -1,0 +1,205 @@
+.main-container{
+    max-width: 1440px;
+    margin: 0 auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.207),0 2px 2px rgba(0, 0, 0, 0.207);
+}
+.section{
+    display: flex;
+    margin-bottom: 32px;
+}
+.section .image {
+    width: 50%;
+    display: flex;
+}
+.section .image img {
+    width: 100%;
+}
+.section .text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 48px;
+    background-color: #d4e9e2;
+    letter-spacing: 1px;
+}
+.text h1 , p {
+    margin: 0;
+    font-weight: 500;
+}
+.text h1 {
+    color: #1e3032;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.text p{
+    color: #1e3932;
+    text-align: center;
+    font-weight: 550;
+    margin-bottom: 32px;
+    font-size: 19px;
+}
+.text .button {
+    padding: 7px 16px;
+    border-radius: 50px;
+    border: 1px solid;
+}
+.text .button a {
+    color: #1e3932;
+    font-weight: 600;
+    letter-spacing: 0;
+    transition: all 0.2s ease;
+}
+.text .button :hover {
+    padding: 7px 32px;
+    background-color: rgba(30, 57, 50, .1);
+}
+@media (max-width:420px){
+    .text h1 {
+        font-size: 10px;
+    }
+}
+@media( max-width:920px){
+    .section{
+        flex-direction: column;
+    }
+    .section .image {
+        width: 100%;
+    }
+    .section .text {
+        width: 100%;
+    }
+    .text h1 {
+        font-size: 40px;
+    }
+    .text p {
+        letter-spacing: 1px;
+    }
+    .bottom p{
+        font-size: 14px;
+    }
+}
+.second .text h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.second .text p {
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.second ul {
+    margin-bottom: 40px;
+}
+.second li {
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+.third .text {
+    background-color: #006241;
+}
+.third .text h1 {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+.third .text p {
+    letter-spacing: 1px;
+    color: white
+}
+.third .text .button {
+    border-color: white;
+}
+.third .text .button a {
+    color: white;
+}
+.fourth .text {
+    background-color: #006241;
+}
+.fourth .text h1 {
+    letter-spacing: 8px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.fourth .text p {
+    font-size: 20px;
+    font-weight: 450;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    line-height: 30px;
+    padding: 25px;
+}
+.fourth .text .button {
+    border-color: white;
+}
+.fourth .text .button a {
+    color: white;
+}
+.fifth .text {
+    background-color: #006241;
+}
+.fifth .text h1 {
+    letter-spacing: 5px;
+    color: white;
+    margin-bottom: 20px;
+}
+.fifth .text p {
+    letter-spacing: 1px;
+    color: white;
+    font-size: 19px;
+    font-weight: 450;
+    line-height: 1.5;
+}
+.fifth .text .button {
+    border-color: white;
+}
+.fifth .text .button a {
+    color: white;
+}
+.sixth .text {
+    background-color: #006241;
+}
+.sixth .text h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+.sixth .text p {
+    letter-spacing: 1px;
+    color: white;
+    font-size: 24px;
+    font-weight: 450;
+    line-height: 1.5;
+}
+.sixth .text .button {
+    border-color: white;
+}
+.sixth .text .button a {
+    color: white;
+}
+.bottom-text{
+    margin: 50px;
+}
+.bottom p {
+    text-align: center;
+}
+
+.bottom-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+}
+.bottom {
+    max-width: 600px;
+    margin-bottom: 32px;
+}
+.seventhsection .bottom a:hover{
+    text-decoration: underline;
+    color: black;
+}

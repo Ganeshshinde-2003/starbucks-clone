@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    font-family: Helvetica ,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    color: rgba(0,0,0,.87);
+}
+*{
+    box-sizing: border-box;
+}
+.header{
+    height: auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.207),0 2px 2px rgba(0, 0, 0, 0.207);
+    position: relative;
+    z-index: 30;
+    margin-bottom: 32px;
+}
+.header-container{
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 100%;
+    padding: 20px 30px;
+}
+.left-bar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 51px;
+    width: 51px;
+}
+.logo img{
+    height: 51px;
+}
+.left-bar nav ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.left-bar nav ul li {
+    text-transform: uppercase;
+    padding-left: 24px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.left-bar nav ul li a:hover {
+    color: #008240;
+}
+.right-bar{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.join-now{
+    margin-right: 16px;
+}
+.sign-in{
+    margin-right: 16px;
+}
+.find-store{
+    margin-right: 16px;
+}
+.join-now{
+    border: 1px solid;
+    padding: 7px 16px;
+    border-radius: 50px;
+    background-color: black;
+    font-weight: 600;
+    line-height: 1.2;
+    transition: all .2s ease;
+}
+.join-now a {
+    color: white;
+}
+.sign-in{
+    border: 1px solid;
+    padding: 7px 16px;
+    border-radius: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+    transition: all .2s ease; 
+}
+.join-now:hover{
+    background-color: rgba(0,0,0,.7);
+    border-color: rgba(0,0,0,.7);
+}
+.sign-in:hover{
+    background-color: rgba(0,0,0,.06);
+}
+.find-store a:hover{
+    color: #008240;
+} 
+
+@media (max-width:850px){
+    .header-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .find-store span {
+        font-size: 15px;
+    }
+    .sign-in a , .join-now a {
+        font-size: 15px;
+        padding: 5px 8px;
+    }
+    .left-bar nav li a {
+        font-size: 15px;
+    }
+}
