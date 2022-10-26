@@ -104,14 +104,13 @@ a {
         justify-content: center;
         align-items: center;
     }
+    .left-bar nav ul {
+        font-size: 10px;
+    }
     .find-store span {
-        font-size: 15px;
+        font-size: 10px;
     }
     .sign-in a , .join-now a {
-        font-size: 15px;
-        padding: 5px 8px;
-    }
-    .left-bar nav li a {
-        font-size: 15px;
+        font-size: 10px;
     }
 }

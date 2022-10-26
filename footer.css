@@ -67,10 +67,10 @@ footer{
     margin: 0 auto;
     text-align: center;
     font-size: 30px;
-    font-weight: bolder;
 }
 .design{
     padding-bottom: 32px;
+    font-weight: bolder;
 }
 .intro{
     font-size: 20px;
